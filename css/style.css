@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width:10%;
+}
+
+.manu{
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(241, 241, 241);
+    text-align: right;
+}
+
+.manu ul{
+    display: inline-flex;
+    list-style: none;
+}
+.manu ul li{
+    width: 120px;
+     margin: 2px;
+    padding: 5px;
+}
+.manu ul li a{
+   
+    text-decoration: none;
+    color: rgb(81, 113, 126);
+    
+}
+ .manu ul li:hover{
+      background: rgb(211, 211, 211);
+      border-radius: 50px;
+
+}
+.logo img{
+    position: absolute;
+    margin-top:-2.8%;
+    margin-left: 10px;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom:140px;
+}
+h1{
+    font-size: 40px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 36%;
+}
+.all-book{
+    display:block;
+    width: 50%;
+    margin-left:5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 10px 10px rgb(240, 235, 235);
+    border-radius: 15px;
+}
+.all{
+    font-size: 20px;
+}
+#web-develop{
+    border-left:5px solid;
+    border-image:linear-gradient(orange,tomato);
+    border-image-slice:1;
+}
+#web{
+    border-left: 5px solid;
+    border-image:linear-gradient(rgb(0, 204, 255),rgb(66, 30, 223)) ;
+    border-image-slice:1;
+}
